@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Quotes</title>
+		<meta charset - "UTF-8">
+		<meta name = "description" content = "Quotes"/>
+		<meta name = "author" content = "Daniel Cleaves"/>
+		<meta name = "viewport" content = "width-device-width, initial-scale = 1.0"/>
+		<link rel = "stylesheet" href = "css/style.css"/>
+		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	</head>
+	<body>
+	
+		<h1>Here are my awesome quotes!</h1>
+		<% for (x in thequotes) { %>
+		<div class = "quote">
+			<p>"<%= thequotes[x].quote %>"</p>
+			<h2>"<%= thequotes[x].name %>" at "<%= thequotes[x].created_at %>"</h2>
+		</div>
+		<% } %>
+		
+	</body>
+</html>

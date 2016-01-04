@@ -1,0 +1,43 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	margin: 20px;
+	display: block;
+	padding: 20px;
+}
+
+h2 {
+	display: inline-block;
+	margin: 20px;
+	vertical-align: center;
+}
+
+h3 {
+	margin-left: 20px;
+	color: red;
+}
+
+#name_box {
+	width: 100px;
+	height: 40px;
+	font-size: 14px;
+
+}
+
+#text_box {
+	width: 400px;
+	height: 200px;
+	font-size: 20px;
+	vertical-align: text-top;
+	margin-bottom: 18px;
+}
+
+form .btn {
+	display: inline-block;
+	margin: 20px;
+	width: 100px;
+}
+

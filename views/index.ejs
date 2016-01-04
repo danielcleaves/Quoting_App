@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Quoting</title>
+		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "/css/stylesheet.css">
+    </head>
+    <body>
+        <h1>Welcome to Quoting Dojo</h1>
+                
+                <form action = "/quotes" method = "post">
+                    <div id = "name">
+                        <h2>Your Name: </h2> <input id = "name" type = "text" name = "name" placeholder = "Your Name" />
+
+                    <div id = "quote">
+                        <h2>Your quote: </h2> <input id = "text_box" type = "text" name = "quote" placeholder = "Type your Quote" />
+                    </div>
+
+                    <input class = "btn" type = "submit" value = "Add my quote!"/>
+                </form>
+
+                <form action = "/quotes" method = "get">
+                    <input class = "btn" type = "submit" value = "Skip to quotes!"/>
+                </form>
+    </body>
+</html>
+    	
